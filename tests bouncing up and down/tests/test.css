@@ -1,0 +1,96 @@
+.hideModal {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    display: flex;
+    top: 0;
+    background: linear-gradient(135.01deg, rgba(255, 255, 255, 0.06) 25%, rgba(0, 63, 224, 0.021) 92.63%);
+    backdrop-filter: blur(75px);
+    border-radius: 2px;
+    margin-top: 1em;
+    border: 1px solid #454545;
+    padding: 0.5em;
+    align-items: center;
+    border-bottom: 3px solid red;
+    width: 30%;
+    right: 10px;
+
+}
+.modal img{
+    margin-right: 1em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.content h3, .content p{
+    margin: 0;
+}
+.content h3{
+    font-size: 1em;
+    font-weight: 800;
+}
+
+
+
+.modalSuccess {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    display: flex;
+    top: 0;
+    background: linear-gradient(135.01deg, rgba(255, 255, 255, 0.06) 25%, rgba(0, 63, 224, 0.021) 92.63%);
+    backdrop-filter: blur(75px);
+    border-radius: 2px;
+    margin-top: 1em;
+    border: 1px solid #454545;
+    padding: 0.5em;
+    align-items: center;
+    border-bottom: 3px solid rgb(43, 255, 0);
+    width: 30%;
+    right: 10px;
+    
+}
+.modalSuccess img{
+    margin-right: 1em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.scroll{
+    position: absolute;
+     top:78%;
+     padding-left: 1em;
+     animation: bounce 2.5s ease-in-out infinite normal;
+    
+
+}
+
+
+@keyframes bounce{
+    0%{ top: 80%; }
+    50%{ top: 70%;}
+    100%{ top: 80%;}
+}
+
+
+
+.scroll p{
+    text-orientation: mixed;
+    writing-mode: vertical-rl; 
+    margin: 0;
+   margin-bottom: 1em;
+   font-weight: 800;
+}
+.scroll img{
+    margin-left: 0.3em;
+    
+}
+
+
+body{
+    background-color: blue;
+}
